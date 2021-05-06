@@ -1,0 +1,120 @@
+------------
+Responsive:
+------------
+If we don’t need left and right spacings, we can use the Bootstrap class name container-fluid instead of container.
+container
+container-fluid
+row
+col-12
+col-sm-12
+col-md-12
+col-lg-12
+col-xl-12
+
+------------------------------------------------------------
+navbar:https://getbootstrap.com/docs/4.0/components/navbar/
+------------------------------------------------------------
+Step-1: Adding Bootstrap Navbar Component
+
+Step-2: Adding Logo
+
+Step-3: Aligning Nav Items
+
+Step-4: Changing Navbar Background color
+
+fixed-top fixed-bottom
+------------------------------------------------------------
+Class Selector
+ID Selector
+Type (tag name) Selector
+Inline selector
+----------
+Inherited:
+----------
+font-family
+font-style
+font-weight
+text-align
+list-style-type
+color
+
+---------------
+non inherited:
+---------------
+width
+height
+margin
+padding
+border-style
+border-width
+border-color
+border-radius
+background-image
+background-color
+background-size
+text-decoration
+
+
+Specificity:
+inline      ------- style=
+ID          ------- #
+class       ------- .
+type        ------- tagname
+
+if two classes are there then the highest is to the one which executes last in css page
+
+h1 {
+ color: orange !important;
+}
+-------------------------
+The HTML span element is a generic inline container element which is mainly used for styling text in HTML Elements.
+-------------------------------
+width: 25%	w-25 -- we can use %age of width
+
+-----------
+for icons -- https://icons.getbootstrap.com/
+-------
+shadow:
+-------
+shadow-none
+shadow-sm
+shadow
+shadow-lg
+
+------
+order:
+------
+The Bootstrap Order class names are used to change the visual order of the flex items that appear inside the Flex Container.
+
+order-md
+----------
+Display:
+----------
+We can hide and show HTML elements responsively for each screen size with the Display utilities.
+
+d-none, d-sm-none, d-md-none
+
+d-block, d-md-inline, d-lg-block, etc.
+
+------------------------------------------
+modal
+------------------------------------------
+Linear Gradient:
+background-image: linear-gradient(#2196f3, #f44336);
+to top	        Colors transition (change) from bottom to top
+to bottom	It is a default direction. Colors transition (change) from top to bottom
+to left	        Colors transition (change) from right to left
+to right	Colors transition (change) from left to right
+
+
+Radial Gradient:
+background-image: radial-gradient(#2196f3, #f44336);
+
+--------------------------------------------------------------------------------------------
+
+span
+p-5
+m-5
+w-100
+
+

@@ -1,0 +1,171 @@
+-------
+color:
+-------
+color:blue
+backround-color:lightblue;
+background-color: transparent;
+---------------------------------------------------------------------------------------------------------------------
+Font:
+------
+font-family:"Roboto"
+font-size:30px
+font-style:normal/italic/oblique
+font-weight:normal/bold/bolder/lighter/100/200/300/400/500/600/700/800/900
+text-decoration:underline/overline/line-through
+
+---------------------------------------------------------------------------------------------------------------------
+hei/wid/backimg:
+------------------
+height:30vh/30px
+width:30vw/30px
+width: 25% -- normal	w-25 --- bootstrap
+background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/ocean.jpg");
+background-size: cover;
+
+---------------------------------------------------------------------------------------------------------------------
+Border:
+-------
+border-radius:30px(border-top-left-radius,border-top-right-radius,border-bottom-left-radius,border-bottom-right-radius)
+border-color: orange;
+border-width:2px
+border-style:dotted/dashed/solid/none(default)
+
+       border-width border-style border-color
+border: 10px solid goldenrod/none;
+
+---------------------------------------------------------------------------------------------------------------------
+Margin:
+--------
+margin-top
+margin-right
+margin-bottom
+margin-left
+
+
+---------------------------------------------------------------------------------------------------------------------
+unorderedlist css:
+------------------
+.unordered-square-list {
+  list-style-type: square/circle/disc/none
+}
+
+---------------------------------------------------------------------------------------------------------------------
+orderedlist css:
+-----------------
+.ordered-lower-roman-list {
+  list-style-type: upper-alpha/lower-alpha/upper-roman/lower-roman/decimal/none
+}
+
+---------------------------------------------------------------------------------------------------------------------
+overflow for box:
+-----------------
+overflow: visible(default)/hidden/scroll/auto;
+overflow-x- To handle overflow in the horizontal direction.
+overflow-y- To handle overflow in the vertical direction.
+
+
+---------------------------------------------------------------------------------------------------------------------
+min and max height/width:
+-------------------------
+min-height: 150px;
+max-height: 180px;
+min-width: 150px;
+max-width: 180px;
+
+
+---------------------------------------------------------------------------------------------------------------------
+box elements:
+---------------
+Content Box
+The width and height properties include the content, but they do not include the padding, border, or margin.
+box-sizing: content-box;
+Border Box
+The width and height properties include the content, padding, and border, but they do not include the margin
+box-sizing: border-box;
+
+
+---------------------------------------------------------------------------------------------------------------------
+universal selector:
+-------------------
+* {
+  property1: value1;
+  property2: value2;
+}
+
+
+---------------------------------------------------------------------------------------------------------------------
+direction:
+-------------------
+Main Axis- It is specified by the flex-direction property.
+
+display:flex/none;
+
+row- Direction of the flex items is horizontal.
+column- Direction of the flex items is vertical.
+
+flex-direction : row(default)/column;
+
+flex-start(default) - All the elements will arrange to the start of the container.
+center- All the elements will arrange to the center of the container.
+flex-end- All the elements will arange to the end of the container.
+space-between- Left over space will be arranged in between the flex items.
+space-around- Every flex item will get space around them.
+
+justify-content : flex-start(default)/center/flex-end/space-between/space-around
+---------------------------------------------------------------------------------------------------------------------
+Cross Axis- It runs perpendicular to the main axis
+
+stretch(default)- Will stretch its available height.
+flex-start- Will be at the starting of the flex container.
+center- Will be at the center of the avilable height.
+flex-end- Will be at the ending point of the available height
+
+align-items : stretch(default)/flex-start/center/flex-end;
+
+align-content: stretch|center|flex-start|flex-end|space-between|space-around|initial|inherit;
+
+The align-self property specifies the alignment of Individual Flex Items along the cross axis.
+align-self :flex-start/center/flex-end/stretch/auto(default)
+----------------------------------------------------------------------------------------------------------------------
+The flex-wrap property arranges the flex items in multiple lines.
+
+flex-wrap:nowrap(default)/wrap/wrap-reverse;
+----------------------------------------------------------------------------------------------------------------------
+order - 0 (default)/+ve values/-ve values
+----------------------------------------------------------------------------------------------------------------------
+media-type:
+
+screen- For all Screened devices (mobiles, laptops, tablets, etc.)
+print- For Printers.
+tv- For Televisions.
+all- Matches all types of devices and more...
+
+media-feature-expression:
+
+width, min-width, max-width
+height, min-height, max-height
+orientation:landscape/portrait
+
+@media media-type and (media-feature-expression) {
+   /* CSS rules go here */
+}
+
+@media media-type and (media-feature-expression) {
+    /* CSS rules go here */ 
+}
+
+@media not screen and (min-width: 600px) {
+     /* CSS rules go here */
+}
+
+---------------------------------------------------------------------------------------------------------------------
+The flex-grow property specifies how flex items Scale Up their size based on the available space.
+
+flex-grow:0(default)/+ve values;
+
+---------------------------------------------------------------------------------------------------------------------
+The flex-shrink property specifies how flex items Scale Down their size based on the available space.
+
+flex-shrink:1(default)/0/+ve values;
+
+---------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,79 @@
+heading tag - <h1>
+-------------------
+paragraph tag - <p>
+--------------------
+button - <button>
+--------------------
+<tag class = "name1 name2 name3 name4 ...">Content</tag>
+---------------
+input:
+---------------
+HTML Input Element:
+
+Text           ----- <input type="text" />
+Password       ----- <input type="password" />
+Radio
+Date
+Checkbox
+
+<input type="checkbox" />
+<label for="myCheckbox">Graduated</label>
+<input type="text" placeholder="Enter your name" />
+<input type="search" />
+textarea:
+
+<textarea rows="8" cols="55"></textarea>
+---------------
+void elements:
+---------------
+<img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tajmahal-img.png"/>
+---------------------
+display of page wise:
+---------------------
+<div id="section1">
+      <p>This is Section One</p>
+      <button class="btn btn-primary" onclick="display('section2')">
+        Go to Section 2
+      </button>
+</div>
+----------------
+unordered list:
+----------------
+<ul>
+  <li>Painting</li>
+  <li>Reading Books</li>
+  <li>Playing the Guitar</li>
+</ul>
+.unordered-square-list {
+  list-style-type: square/circle/disc/none;
+}
+----------------
+ordered list:
+----------------
+<ol>
+  <li>Go through the HTML elements and CSS properties</li>
+  <li>Complete the Todolist Coding Practice</li>
+  <li>Go through the Bootstrap Concepts</li>
+  <li>Read the Bootstrap cheat sheet</li>
+  <li>Build a Tourism Website</li>
+</ol>
+.ordered-lower-roman-list {
+  list-style-type: upper-alpha/lower-alpha/upper-roman/lower-roman/decimal/none
+}
+
+-------
+a href:
+-------
+<a href="URL" target="_blank">Content</a>
+------------------
+linebreak:<br />
+-----------------------
+horizantal rule:<hr />
+-----------------------
+
+
+class="form-control" css
+<input type="radio" value="" id="" name=""/>
+<select>
+<option></option>
+</select>
